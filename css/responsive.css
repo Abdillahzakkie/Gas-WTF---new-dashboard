@@ -1,0 +1,71 @@
+
+@media (min-width: 1600px){
+.container {
+    width: 85% !important;
+    max-width: 98% !important;
+}
+
+} 
+
+
+@media (max-width: 1170px) {
+
+
+
+
+@media (max-width: 1025px) {
+
+ 
+
+
+nav #menu li a {
+     padding: 12px 9px;
+     font-size: 14px;
+ }
+
+
+
+
+} 
+
+@media (max-width:960px) {
+  
+header{ text-align: center; }
+#brand{ float: initial; }
+.navigetion_g{float: initial; margin-left: 0px;}
+.navigetion_g li{ margin: 0 10px; }
+ .logo_mm {
+    width: 160px; margin: 0 auto;
+    padding-bottom: 14px;
+} 
+.connet_wallet_btngm {
+     margin-top: 23px; float: initial;
+    display: inline-block;
+}
+.last_update_t{ text-align: left; float: left; }
+
+
+
+}
+
+ 
+
+
+@media (max-width: 767px) {
+
+ .logo_mm {
+    width: 160px; margin: 0 auto;
+    padding-bottom: 14px;
+} 
+
+.gas_pack_gm ul li {
+     margin: 4% 0%;
+    padding: 10px 0;
+    width: 100%;
+}
+
+
+
+
+
+}

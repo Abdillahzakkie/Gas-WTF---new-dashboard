@@ -1,0 +1,320 @@
+/* PP */
+body {
+	padding: 0;
+	font-family: "Montserrat", sans-serif;
+	word-break: keep-all;
+	zoom: 95%;
+	color: #fff;
+	background: #0f141a;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+ul li {
+	list-style: none;
+}
+* {
+	padding: 0px;
+	margin: 0px;
+}
+a {
+	text-decoration: none;
+	outline: none;
+	color: #666;
+}
+a:hover {
+	text-decoration: none;
+	outline: none;
+}
+#un,
+#ps {
+	color: gray;
+}
+.clr {
+	clear: both;
+}
+
+::-webkit-scrollbar {
+	height: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: #ccc;
+	border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+	background: #555;
+}
+
+button {
+	border: none;
+	outline: none;
+}
+
+input[type="text"],
+input[type="password"] {
+	width: 100%;
+	color: #000;
+	margin: 8px 0;
+	padding: 13px 0px;
+	display: inline-block;
+	border-bottom: 1px solid #ccc;
+	border-top: 0px;
+	border-right: 0px;
+	border-left: 0px;
+	box-sizing: border-box;
+	border-radius: 0px;
+}
+input[type="text"],
+[type="password"],
+[type="number"] {
+	width: 100%;
+	color: #000;
+	margin: 8px 0;
+	padding: 13px 0px;
+	display: inline-block;
+	border-bottom: 1px solid #ccc;
+	border-top: 0px;
+	border-right: 0px;
+	border-left: 0px;
+	box-sizing: border-box;
+	border-radius: 0px;
+	outline: 0px;
+}
+
+.logo_mm {
+	width: 203px;
+	display: block;
+	padding-top: 4px;
+}
+header {
+	border-bottom: 1px solid #000;
+	padding: 30px 0;
+	position: relative;
+}
+.logo_mm_dm {
+	width: 299px;
+	display: none;
+	padding-top: 0px;
+}
+
+.navigetion_g {
+	float: left;
+	margin-left: 175px;
+	margin-top: 13px;
+}
+.navigetion_g li {
+	display: inline-block;
+	margin-right: 45px;
+}
+.navigetion_g li a {
+	font-size: 16px;
+	color: #fff;
+	font-weight: 500;
+}
+
+#brand {
+	float: left;
+}
+.connet_wallet_btngm {
+	float: right;
+	margin-top: 13px;
+}
+
+.connet_wallet_btngm a {
+	background: #5bd428;
+	color: #fff;
+	padding: 15px 30px;
+	font-size: 15px;
+	font-weight: 500;
+	text-transform: uppercase;
+	border-radius: 7px;
+}
+
+.connet_wallet_btngm a:hover {
+	background: #fff;
+	color: #5bd428;
+	padding: 15px 30px;
+	font-size: 15px;
+	font-weight: 500;
+	text-transform: uppercase;
+	border-radius: 7px;
+}
+
+.disconnet_wallet_btngm {
+	float: right;
+	margin-top: 13px;
+	visibility: hidden;
+}
+
+.disconnet_wallet_btngm a {
+	color: #fff;
+	padding: 15px 30px;
+	font-size: 15px;
+	font-weight: 500;
+	text-transform: uppercase;
+	border-radius: 7px;
+}
+
+.wallet_btngm {
+	float: right;
+	margin-top: 10px;
+	visibility: hidden;
+}
+
+.wallet_btngm a {
+	background: transparent;
+	border: 1px solid #5bd428;
+	color: #fff;
+	padding: 12px 20px;
+	font-size: 19px;
+	font-weight: 500;
+	text-transform: uppercase;
+	border-radius: 7px;
+}
+
+.about_wtf_md {
+}
+.about_wtf_md_l {
+	margin-top: 35px;
+}
+
+.about_wtf_md_l p {
+	color: #5bd428;
+	font-size: 24px;
+	line-height: 34px;
+}
+.about_wtf_md_l h3 .coin_n {
+	font-size: 17px;
+}
+.about_wtf_md_l h3 .coin_n strong {
+	font-weight: 600;
+}
+
+.about_wtf_md_l h3 .coin_pp_r {
+	font-size: 17px;
+	font-weight: 600;
+	color: #5bd428;
+}
+.about_wtf_md_l h3 .chartdown_r {
+	font-size: 15px;
+	font-weight: 400;
+	color: #f00;
+}
+
+.last_update_t {
+	float: right;
+	font-size: 13px;
+	color: #4e4e4e;
+	position: relative;
+	bottom: 37px;
+}
+
+.gas_pack_gm {
+	display: inline-block;
+	width: 100%;
+	margin-top: 3px;
+}
+
+.gas_pack_gm ul li {
+	background: #0c1623;
+	border-radius: 15px;
+	text-align: center;
+	display: inline-block;
+	margin: 0 2%;
+	padding: 6px 0;
+	width: 28%;
+	min-height: 187px;
+	vertical-align: text-top;
+}
+
+.gas_pack_gm ul li h3 {
+	color: #4bbb17;
+	font-size: 24px;
+	font-weight: 600;
+	margin-bottom: 11px;
+	margin-top: 10px;
+}
+.gas_pack_gm ul li h3 span {
+	font-size: 12px;
+	color: #fff;
+	font-weight: 400;
+}
+
+.gas_pack_gm ul li h5 {
+	color: #6b6b6b;
+	font-size: 13px;
+	font-weight: 400;
+	margin-bottom: 0px;
+}
+.gas_pack_gm ul li h6 {
+	color: #9ea5d3;
+	font-size: 16px;
+	font-weight: 500;
+	text-transform: uppercase;
+	margin-top: 25px;
+}
+.gas_pack_gm ul li h6 img {
+	padding-top: 5px;
+}
+
+.about_wtf_md_r img {
+	width: 96%;
+	padding-top: 5px;
+}
+
+.gas_spend_blc {
+	background: #0c1623;
+	border-radius: 15px;
+	display: inline-block;
+	margin: 15px 0;
+	padding: 20px 25px;
+	box-shadow: 0px 3px 0px 0px #4bbb17;
+	width: 100%;
+}
+.gas_spend_blc ul li {
+	font-size: 15px;
+	line-height: 26px;
+	padding: 10px 0px;
+}
+.gas_spend_blc ul li span {
+	float: right;
+	font-weight: 700;
+	color: #4bbb17;
+	font-size: 16px;
+}
+
+.gas_spend_blc_m {
+	display: inline-block;
+	width: 100%;
+}
+.gas_spend_blc ul {
+	margin-bottom: 0px;
+}
+
+.statsbar {
+	background: rgb(75, 187, 23);
+	background: linear-gradient(
+		90deg,
+		rgba(75, 187, 23, 1) 0%,
+		rgba(4, 187, 192, 1) 100%
+	);
+}
+.statsbar ul li {
+	display: inline-block;
+	margin-right: 25px;
+	padding: 7px 0 4px 0;
+}
+.statsbar ul {
+	margin-bottom: 0px;
+}
